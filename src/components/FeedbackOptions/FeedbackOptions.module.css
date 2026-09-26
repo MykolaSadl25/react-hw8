@@ -1,0 +1,18 @@
+.div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.button{
+    background-color: transparent;
+    color: white;
+    border:1px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    transition: all 250ms;
+}
+.button:hover{
+    box-shadow: 0 0 13px white;
+    transform: scale(1.1);
+}
